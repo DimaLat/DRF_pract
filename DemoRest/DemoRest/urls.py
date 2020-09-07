@@ -18,5 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/v1/base-auth/', include('rest_framework.urls')), # создание встроенной авторизации
     path('api/v1/cars', include('cars.urls')), # + урлы из cars.urls
 ]

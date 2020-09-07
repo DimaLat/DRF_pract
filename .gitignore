@@ -1,0 +1,25 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+
+# Venv files
+venv/
+env/
+
+# Django
+*.log
+*.pot
+
+# idea
+.idea/
+
+# media
+media/
+
+# folders
+static/
+build/
+dist/
+
+# sqlite db
+*.sqlite3
